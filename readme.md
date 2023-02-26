@@ -1,6 +1,7 @@
-ESPAÑOL:
+EN ESPAÑOL: <br>
 Para el emprendimiento culinario de pastelería "Desayunos a Domicilio” se ha plasmado el siguiente modelo relacional: 
- 
+Realizar la creacion de la Base de Datos y las consultas necesarias para el correcto funcionamiento del mismo. 
+<br><br>
 Producto (idProducto, Nombre, fecha_creacion, precio)   
 Temas_Producidos (idTema, idProducto)   
 Composición (idProducto, idComponente, vencimiento, cantidad_componente)   
@@ -10,18 +11,16 @@ Ingrediente (idIngrediente, nombre)
 Tema (idTema, Nombre, color1, color2, color3)   
 Color (idColor, Nombre)  
 
-Realizar la creacion de la Base de Datos y las consultas necesarias para el correcto funcionamiento del emprendimiento
 
-ENGLISH:
+
+IN ENGLISH: <br>
 For the culinary pastry enterprise "Desayunos a Domicilio" the following relational model has been embodied:
- 
-Product (idProducto, Name, date_creation, price)
-Themes_Produced (idTema, idProducto)
-Composition (idProducto, idComponente, expiration, quantity_component)
-Component (idComponent, Description, idPrevailingColor, isCustom, cost)
-Recipe (idComponent, step, idIngrediente, measure, amount, elaboration)
-Ingredient (idIngredient, name)
-Theme (idTheme, Name, color1, color2, color3)
+ Carry out the creation of the Database and the necessary consultations for the correct functioning. <br><br>
+Product (idProducto, Name, date_creation, price)<br>
+Themes_Produced (idTema, idProducto)<br>
+Composition (idProducto, idComponente, expiration, quantity_component)<br>
+Component (idComponent, Description, idPrevailingColor, isCustom, cost)<br>
+Recipe (idComponent, step, idIngrediente, measure, amount, elaboration)<br>
+Ingredient (idIngredient, name)<br>
+Theme (idTheme, Name, color1, color2, color3)<br>
 Color (idColor, Name)
-
-Carry out the creation of the Database and the necessary consultations for the correct functioning of the enterprise
